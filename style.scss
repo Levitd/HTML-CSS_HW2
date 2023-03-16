@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import 'var';
+
+@mixin text ($ff, $fs, $fw, $fst, $fc, $lh) {
+    font: {
+        family: $ff, sans-serif;
+        size: $fs;
+        weight: $fw;
+        style: $fst;
+    }
+
+    line-height: $lh;
+    color: $fc;
+}
+
+@import 'header';
+@import 'main';
+@import 'button';
+@import 'logo';
+@import 'afterMain';
+@import 'grid';
+@import 'about';
+@import 'footer';
+
+
+
+/* @font-face {
+    font-family: "Open Sans";
+    src: url("src/open-sans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} */
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa {
+    color: #FFFFFF;
+    margin-right: 9px;
+}
+
+.fa-brands {
+    margin-right: 24px;
+    color: #FFFFFF;
+}
+
+.fa-play {
+    margin-right: 10px;
+}

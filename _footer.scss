@@ -1,0 +1,39 @@
+.footer_container {
+    background-color: $bg-color-fotter-container;
+}
+
+.footer_conteiner_center {
+    padding-top: 48px;
+    margin: 0 auto;
+    max-width: $max-width-container;
+}
+
+.footer {
+    @extend .flex;
+}
+
+.footer_header {
+    margin-bottom: 33px;
+    @include text(Roboto, 16px, 500, normal, #FFFFFF, 19px);
+}
+
+.footer_text {
+    @include text(Roboto, 14px, 100, italic, #FFFFFF, 16px);
+    opacity: 0.6;
+    width: 261px;
+}
+
+.footer_text_conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.footer_text_info {
+    @include text(Roboto, 14px, 500, normal, #FFFFFF, 16px);
+    width: 261px;
+}
+
+.footer_brand {
+    margin-top: 24px;
+}

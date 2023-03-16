@@ -1,0 +1,31 @@
+.main-container {
+    padding-top: 160px;
+    background-color: $bg-color-main-container;
+    ;
+}
+
+.main-box {
+    @extend .flex;
+}
+
+.main-sibtitle {
+    color: $color-button;
+    @include text(Open Sans, 18px, 600, normal, #FFFFFF, 160%);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    color: #fff;
+    @include text(Open Sans, 55px, 800, normal, #FFFFFF, 130%);
+    margin-bottom: 40px;
+}
+
+.main-left {
+    max-width: 604px;
+}
+
+.main-dsc {
+    @include text(Open Sans, 18px, 600, normal, #878b91, 160%);
+    margin-bottom: 50px;
+}

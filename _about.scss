@@ -1,0 +1,30 @@
+.about_container {
+    background-color: $bg-color;
+    padding-bottom: 221px;
+}
+
+.about_container_center {
+    max-width: $max-width-container;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_header {
+    @include text(Open Sans, 40px, 700, normal, #FFFFFF, 130%);
+    max-width: 548px;
+    margin-bottom: 20px;
+}
+
+.about_text {
+    @include text(Open Sans, 16px, 600, normal, #FFFFFF, 160%);
+    margin-top: 20px;
+    max-width: 460px;
+    opacity: 0.7;
+}
