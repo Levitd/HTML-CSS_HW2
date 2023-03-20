@@ -2,10 +2,14 @@
     @include text(Open Sans, 20px, 600, normal, #FFFFFF, 27px);
     padding: 15px 30px;
     background: $color-button;
-    border-radius: 5px;
     text-decoration: none;
     margin-right: 20px;
     border: 1px solid transparent;
+    transition: background-color .3s, color .3s, border .3s;
+
+    &_br {
+        border-radius: 5px;
+    }
 }
 
 .button-link:last-of-type {

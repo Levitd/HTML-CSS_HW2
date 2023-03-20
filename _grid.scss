@@ -29,21 +29,24 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-
-.grid_item_head {
-    @include text(Open Sans, 25px, 700, normal, #FFFFFF, 125%);
+.grid_par {
     text-align: center;
     max-width: 302px;
     margin-top: 30px;
     opacity: 0.7;
-}
 
-.grid_item_text {
-    @include text(Open Sans, 16px, 600, normal, #FFFFFF, 160%);
-    text-align: center;
-    max-width: 302px;
-    margin-top: 30px;
-    opacity: 0.7;
+    &_head {
+        @include text(Open Sans, 25px, 700, normal, #FFFFFF, 125%);
+    }
+
+    &_text {
+        @include text(Open Sans, 16px, 600, normal, #FFFFFF, 160%);
+    }
+
+    &_item4 {
+        max-width: 694px;
+        margin-top: 60px;
+    }
 }
 
 .grid_item4 {
@@ -51,18 +54,6 @@
     height: 808px;
     grid-column: 1/3;
     grid-row: 2/4;
-}
-
-.grid_item_head_item4 {
-    @extend .grid_item_head;
-    max-width: 694px;
-    margin-top: 60px;
-}
-
-.grid_item_text_item4 {
-    @extend .grid_item_text;
-    margin-top: 60px;
-    max-width: 694px;
 }
 
 .img_grid {
