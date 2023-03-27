@@ -1,17 +1,48 @@
+.logo_main {
+    background-color: $bg-color;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .logo_container {
+    gap: 72px;
+    justify-content: center;
+}
+
+.logo {
+    padding-top: 150px;
+    padding-bottom: 120px;
     max-width: $max-width-container;
     margin: 0 auto;
 }
 
-.logo {
-    margin-top: 200px;
-    padding-bottom: 120px;
+.logo_pict_block_left,
+.logo_pict_block_right {
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
 }
 
 .logo-pict {
     transition: all .3s ease-in;
+    max-width: 100%;
 }
 
 .logo-pict:hover {
-    transform: rotate(360deg) scale(1.3, 1.3);
+    transform: rotate(360deg) scale(1.2, 1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .logo_container {
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .logo_pict_block_left,
+    .logo_pict_block_right {
+        flex-wrap: wrap;
+    }
 }

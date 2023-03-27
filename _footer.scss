@@ -1,5 +1,7 @@
 .footer_container {
     background-color: $bg-color-fotter-container;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .footer_conteiner_center {
@@ -36,4 +38,23 @@
 
 .footer_brand {
     margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .fotter_left,
+    .fotter_rigth {
+        margin-left: 10px;
+    }
+
+    .fotter_rigth {
+        margin-top: 20px;
+    }
+
+    .fotter_center {
+        width: 48%;
+    }
 }

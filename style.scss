@@ -17,25 +17,6 @@
     color: $fc;
 }
 
-@import 'header';
-@import 'main';
-@import 'button';
-@import 'logo';
-@import 'afterMain';
-@import 'grid';
-@import 'about';
-@import 'footer';
-
-
-
-/* @font-face {
-    font-family: "Open Sans";
-    src: url("src/open-sans.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-} */
-
-
 .flex {
     display: flex;
     justify-content: space-between;
@@ -55,3 +36,21 @@
 .fa-play {
     margin-right: 10px;
 }
+
+@import 'header';
+@import 'main';
+@import 'button';
+@import 'logo';
+@import 'afterMain';
+@import 'grid';
+@import 'about';
+@import 'footer';
+
+
+
+/* @font-face {
+    font-family: "Open Sans";
+    src: url("src/open-sans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} */
