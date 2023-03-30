@@ -14,7 +14,7 @@
 
 .header-link {
     text-decoration: none;
-    padding: 40px;
+    padding: 3.5%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -25,4 +25,10 @@
 
 .header-link:hover {
     color: $color-button;
+}
+
+@media screen and (max-width: 375px) {
+    .header-link {
+        font-size: 14px;
+    }
 }

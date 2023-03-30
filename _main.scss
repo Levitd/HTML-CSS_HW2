@@ -57,7 +57,7 @@
 }
 
 .main-container {
-    padding-top: 160px;
+    padding-top: 10vh;
     background-color: $bg-color-main-container;
     padding-left: 2%;
     padding-right: 2%;
@@ -66,23 +66,23 @@
 
 .main-box {
     @extend .flex;
-    gap: 24px;
+    gap: 3%;
 }
 
 .main-sibtitle {
-    color: $color-button;
     @include text(Open Sans, 18px, 600, normal, #FFFFFF, 160%);
+    color: $color-button;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .main-title {
     @include text(Open Sans, 55px, 800, normal, #FFFFFF, 130%);
-    margin-bottom: 40px;
+    margin-bottom: 5vh;
 }
 
 .main-left {
-    max-width: 604px;
+    max-width: 55%;
 }
 
 .main-dsc {
@@ -105,11 +105,16 @@
 @media screen and (max-width: 768px) {
     .main-box {
         flex-wrap: wrap;
+        gap: 3vh;
+        justify-content: center;
+    }
+
+    .main-left {
+        max-width: 80%;
     }
 
     .main-title {
         font-size: 48px;
-
     }
 
     .main-sibtitle {
@@ -118,6 +123,42 @@
 
     .main_pict_block {
         margin: auto;
-        margin-top: 104px;
+        margin-top: 10vh;
     }
+
+    .button-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3vh;
+    }
+}
+
+@media screen and (max-width: 425px) {}
+
+@media screen and (max-width: 375px) {
+    .button-box {
+        justify-content: center;
+    }
+
+    .button-link-left {
+        margin-right: 0;
+    }
+
+    .main-box {
+        justify-content: center;
+    }
+
+    .main-left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .main-sibtitle {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
 }

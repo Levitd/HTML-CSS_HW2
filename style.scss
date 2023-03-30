@@ -33,13 +33,17 @@
     color: #FFFFFF;
 }
 
+.fa-brands:last-child {
+    margin-right: 0;
+}
+
 .fa-play {
     margin-right: 10px;
 }
 
+@import 'button';
 @import 'header';
 @import 'main';
-@import 'button';
 @import 'logo';
 @import 'afterMain';
 @import 'grid';

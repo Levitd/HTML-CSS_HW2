@@ -5,13 +5,13 @@
 }
 
 .logo_container {
-    gap: 72px;
+    gap: 6%;
     justify-content: center;
 }
 
 .logo {
-    padding-top: 150px;
-    padding-bottom: 120px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     max-width: $max-width-container;
     margin: 0 auto;
 }
@@ -20,7 +20,8 @@
 .logo_pict_block_right {
     display: flex;
     justify-content: space-between;
-    gap: 72px;
+    gap: 6%;
+    align-items: center;
 }
 
 .logo-pict {
@@ -35,14 +36,21 @@
 @media screen and (max-width: 768px) {
     .logo_container {
         flex-wrap: wrap;
-        gap: 32px;
+        gap: 2vh;
         justify-content: center;
         flex-direction: row;
     }
 
 
+}
+
+@media screen and (max-width: 375px) {
+
     .logo_pict_block_left,
     .logo_pict_block_right {
         flex-wrap: wrap;
+        gap: 2vh;
+        justify-content: center;
+        flex-direction: column;
     }
 }
