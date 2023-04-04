@@ -115,7 +115,7 @@
   color: #3A68B8;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .header-link {
     font-size: 14px;
   }
@@ -306,7 +306,7 @@
     flex-direction: row;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .logo_pict_block_left,
   .logo_pict_block_right {
     flex-wrap: wrap;
@@ -387,7 +387,7 @@
     max-width: 75%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .after-main-box-left {
     width: auto;
   }
@@ -497,7 +497,7 @@
     min-height: 389px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .grid {
     padding-left: 0;
     padding-right: 0;
@@ -652,7 +652,7 @@
     width: 40%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 426px) {
   .footer_left,
   .footer_center,
   .footer_rigth {
