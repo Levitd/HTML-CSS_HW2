@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @import 'var';
 
 @mixin text ($ff, $fs, $fw, $fst, $fc, $lh) {

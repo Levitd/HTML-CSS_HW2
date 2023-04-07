@@ -1,5 +1,8 @@
 .header {
     background-color: $bg-color;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
 }
 
 .header_container {
